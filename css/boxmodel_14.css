@@ -1,0 +1,24 @@
+P {
+  /*Content - Width and Height - px or %.  % is dynamic*/
+  width: 50%;
+  /* height: 500px; */
+  
+  /*Border*/
+  border: 2px solid blue;
+
+  /*Padding*/
+
+  padding: 10px;
+  /* padding-left: 40px; */
+
+  /*Margin*/
+  /* margin: 100px */
+  /* margin-top: 500px; */
+  /* margin: 20px 40px 500px 100px; */
+  /* top-right-bottom-left */
+  /* margin: 0 auto 0 auto; auto centers element */
+  /* margin: 0 auto;   */
+  /* gives same effect as above, first value gives top and bottom, 
+  second value gives left and right*/
+  margin: 50px 20px;
+}

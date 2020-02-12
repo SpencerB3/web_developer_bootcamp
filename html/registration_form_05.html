@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Register</title>
+</head>
+<body>
+
+  <h1>Register</h1>
+
+  <form action="" method="">
+    <div>
+      <label for="First Name">First Name:</label>
+      <input name = "firstName" id="First Name" type="text" placeholder="John"required>
+    
+      <label for="Last Name">Last Name:</label>
+      <input name = "lastName" id="Last Name" type="text" placeholder="Smith" required>
+    </div>
+
+    <div>
+      <label for="male">Male</label>
+      <input name ="gender" id="male" type="radio" required>
+
+      <label for="female">Female</label>
+      <input name="gender" id="female" type="radio" required>
+    </div>
+      <label for="email">Email:</label>
+      <input name="email" id="email" type="email" placeholder = "your email" required>
+      
+      <label for="password">Password:</label>
+      <input name="password" id="password" type="text" placeholder="your password"
+        pattern= ".{2,5}" required title="Password must be between 2 and 5 characters" >
+
+    <!-- <p>Birthday:</p> -->
+    <div>
+    <label for="">Birthday:
+    <select name="Day" id="" >
+      <option value="">Day</option>
+      <option value="">01</option>
+      <option value="">02</option>
+      <option value="">03</option>
+    <select>
+
+    <select name="Month" id="">
+      <option value="">Month</option>
+      <option value="">Jan</option>
+      <option value="">Feb</option>
+      <option value="">Mar</option>
+    </select>
+
+    <select name="Year" id="">
+      <option value="">Year</option>
+      <option value="">1980</option>
+      <option value="">1981</option>
+      <option value="">1982</option>
+    </select>
+    </label>
+    </div>
+
+    <div>
+      <label for="conditions">I agree to the terms and conditions</label>
+      <input name="conditions" id="conditions" type="button" required>
+    </div>
+      
+    <div>
+      <button>Submit</button>
+    </div>
+  </form>
+  
+</body>
+</html>

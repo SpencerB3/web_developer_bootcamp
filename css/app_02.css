@@ -1,0 +1,22 @@
+h1 {
+  color: rgba(0, 200, 100, 1);
+  /* border-color: purple;
+  border-width: 5px;
+  border-style: solid; */
+
+  border: 15px dashed rgb(250, 150, 20)
+}
+
+h3 {
+  background: rgb(250, 150, 0)
+}
+
+body {
+  background: pink;
+}
+
+/* body {
+  background: url(https://i.ebayimg.com/images/i/321904358358-0-1/s-l1000.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */

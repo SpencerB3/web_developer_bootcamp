@@ -1,0 +1,15 @@
+li {
+  border: 2px dashed red;
+}
+
+#special {
+  background: pink;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+/* * {
+  border: 5px dashed lightcoral;
+} */
