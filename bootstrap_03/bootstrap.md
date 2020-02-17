@@ -70,7 +70,7 @@
    ```
 
    - put a div with a container class to center the links `<div class="container">`
-   - to make links collapse into  hamburger: `<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">`
+   - to make links dissapear (reappearing as a hamburger with the button class below): `<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">`
    - the actual hamburger element - note that the target id attribute must match the id attribute of the <div> element which the "hamburger" must hold - also note the '#' which the id attribute above does not need
 
    ```html
