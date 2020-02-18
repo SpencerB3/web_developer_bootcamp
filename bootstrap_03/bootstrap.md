@@ -103,5 +103,26 @@
    <div class="col-lg-3 col-md-3 col-sm-6 pink">TOUR DATE!</div>
    ```
 
+   - to give an image borders when placed in a grid, wrap the image in a `thumbnail` class
+
+   ```html
+   <div class="col-lg-4 col-sm-6">
+           <div class="thumbnail">
+             <img
+               src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Cezanne_-_Still_Life_With_Quince%2C_Apples%2C_and_Pears.jpg/1127px-Cezanne_-_Still_Life_With_Quince%2C_Apples%2C_and_Pears.jpg"
+               alt="">
+           </div>
+         </div>
+   ```
+
+   - distance odf body from navbar is 70px (use padding-top in css file for body element)
+   - to have an image cover the whole screeen even in mobile setting, assign the html element a height of 100% in the css file
+
+   ```css
+   html {
+     height: 100%;
+   }
+   ```
+
    
 
