@@ -124,5 +124,5 @@
    }
    ```
 
-   
+   - in Bootstrap 4, fontsizes are no longer hardcoded.  The measurement 'rem' is used instead which is a compartive measurement to the default of 16px.
 
