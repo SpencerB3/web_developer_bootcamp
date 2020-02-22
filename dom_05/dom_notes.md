@@ -83,3 +83,30 @@ img.setAttribute("src", "spring.png"); // <img src="springer.png">
 ```
 
 3. DOM Events
+
+- Process: We select an element and then add an event listener, i.e., "Listen for a click on this <button>".
+- Syntax: To add a listener, we use a method called `addEventListener`
+
+`element.addEventListener(type, functionToCall);`
+
+```javascript
+let button = document.querySelector('button');
+button.addEventListener("click", function() {
+  console.log("SOMEONE CLICKED THE BUTTON!")
+});
+```
+
+```html
+<button>Click Me</button>
+<p>No One Has Clicked Me Yet</p>
+```
+
+```javascript
+let button = document.querySelector('button');
+let paragraph = document.querySelector('p');
+// Setup click listener
+button.addEventListener('click', function() {
+  paragraph.textContent = "Someone Clicked the Button!";
+});
+```
+
