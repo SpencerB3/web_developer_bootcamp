@@ -110,3 +110,4 @@ button.addEventListener('click', function() {
 });
 ```
 
+- other type of events are "changed", "mouseover", and "mouseout"
